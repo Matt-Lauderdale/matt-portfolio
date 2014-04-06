@@ -1,0 +1,320 @@
+/* CSS Stylesheet */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Global*/
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+a	{text-decoration:none; border-style:none;
+font-size:1.5em;
+	font-family: 'Oleo Script', cursive;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	}
+	
+a:link {color:#92100B;}      /* unvisited link */
+a:visited {color:#92100B;}  /* visited link */
+a:hover {color:#FF2C05;}  /* mouse over link */
+a:active {color:#92100B;}  /* selected link */
+
+@font-face {
+ font-family: aFont;
+ src: url("aFont.eot"); /* For IE browsers */
+}
+@font-face {
+ font-family: aFont;
+ src: url("aFont.ttf"); /* For most other browsers */
+}
+.myFontClass 
+/*Headings*/
+
+h1, h2, h3, h4, h5, h6 {font-weight:bold; }
+h1		{font-family: 'Oleo Script', cursive; text-shadow: black 0.1em 0.1em 0.5em;}
+h2		{font-family: 'Oleo Script', cursive;font-size:62px; color:#A30911;   
+		-webkit-text-stroke-width: 2px;
+   		-webkit-text-stroke-color: black;
+		text-shadow: black 0.1em 0.1em 0.2em;
+		}
+h3		{font-size:20px;font-family: 'Oleo Script', cursive; color:#333; text-shadow: white 0.1em 0em 0.3em,  white 0em 0.1em 0.3em, white -0.1em 0em 0.3em,  white 0em -0.1em 0.3em;}
+h4		{font-size:18px;font-family: 'Oleo Script', cursive; color:#333;}
+h5		{font-size:14px;}
+h6		{font-size:14px;}
+
+/*Text Elements*/
+
+p				{font-size:16px; color:#FFF;}
+
+/*Images*/
+
+
+/* Containers */
+
+
+html 				{background:url(../images/background.png) no-repeat center;
+					background-repeat:repeat-y;
+					background-size: 100%;
+					}
+					
+body 				{
+					margin: 0;
+					padding: 0;
+					height: 100%;
+					}
+
+#wrapper 			{
+					width:1000px;
+					text-align:center;
+					margin: auto;
+					font: 1.5em arial, verdana, sans-serif;
+					box-shadow:0px 0px 20px black;	
+					-webkit-box-shadow: 0px 0px 20px black;
+	   				-moz-box-shadow: 0px 0px 20px black;
+					}
+					
+header				{
+					width:100%; top:0px;
+					min-height:25%; text-align:center;
+					padding:15px 0px;
+					background-color:#676767;
+					border-bottom:2px solid #810C00;
+					
+					}
+header img			{float:left;
+					height:150px;
+					width:300px;}	
+#name				{padding-top:10px;}				
+					
+aside				{
+					width:250px; float:left;
+					text-align:center;
+					height: 500px;
+					background-color:#3E0600;
+					
+					
+					
+					}
+nav ul li			{height: 50px;
+					width:98%;
+					margin-left:auto;
+					margin-right:auto;
+					background-color:#
+					
+					}
+nav a 				{vertical-align:middle;}
+
+#content			{
+					float:right; width:728px;				
+					text-align:left;
+					min-height:500px;
+					padding: 0px 10px;
+					border-left:2px solid #810C00;
+					background-color:#9C9C9C;
+					}
+#indesign, #artwork, #websites			{width:46%; 
+										float:left; 
+										border:#666 solid 3px; 
+										margin:5px; 
+										padding:5px; 
+										text-align:center;
+										background-color:#CCC;
+										box-shadow: inset 0px 0px 5px 5px black;	
+											-webkit-box-shadow: inset 0px 0px 5px 5px black;
+	   										-moz-box-shadow: inset 0px 0px 5px 5px black;
+										}					
+
+#indesign h1, #artwork h1, #websites h1 {margin:5px;}
+
+
+#websites			{margin-left:25%}
+
+#indesign img, #artwork img		{box-shadow:0px 0px 2px 2px black;	
+									-webkit-box-shadow: 0px 0px 2px 2px black;
+	   								-moz-box-shadow: 0px 0px 2px 2px black;}
+
+
+footer 				{width:100%; 
+					bottom:0px;
+					text-align:center;
+					width:100%;
+					min-height:25px;
+					background-color:#676767;
+					border-top:2px solid #810C00;
+					clear:both
+					}
+					
+footer #copywright h3
+					{width:50%;
+					margin-left:25%;
+					margin-right:25%;
+					}
+					
+#socialMedia img, #music img	{
+    				-webkit-transition-duration: 0.8s;
+    					-moz-transition-duration: 0.8s;
+    					-o-transition-duration: 0.8s;
+    				transition-duration: 0.8s;
+ 
+    				-webkit-transition-property: -webkit-transform;
+    					-moz-transition-property: -moz-transform;
+    					-o-transition-property: -o-transform;
+    				transition-property: transform;
+ 
+    				overflow:hidden;
+ 
+    				}   
+ 
+  
+#socialMedia img:hover, #music img:hover
+						{
+    				-webkit-transform:rotate(360deg);
+    					-moz-transform:rotate(360deg);
+    					-o-transform:rotate(360deg);
+}
+ 
+ 
+#music{
+          			width:100%;
+          			display: table;
+					border-top:groove;
+					bottom:0px;
+        }
+#socialMedia			{width:70%;border-top:groove; float:right; margin-top:5px;}
+#socialMedia h4			{width:20%; float:left;}	
+#socialMediaIcons		{
+          			width:70%;
+					float:right;
+          			display: table;
+					
+					
+					}
+					
+		
+
+#socialMediaIcons ul, #music ul{
+          display: table-row;
+        }
+
+#socialMediaIcons ul li, #music ul li{
+          display: table-cell;
+          text-align: center;
+		  padding-top:10px;
+        }
+		
+#avatar				{
+					margin:10px 25px;}					
+#avatar #mandj		{max-height:70%;
+					max-width:50%;
+					float:right;}
+					
+@media screen and (max-width:950px)	{
+	
+	h2					{font-size:2em}
+    body				{width:100%;}
+	#wrapper			{width:100%;}
+	a   				{font-size:1.5em;}
+	
+	aside 				{width: 100%;display:inline;
+						min-height: 40px;
+						max-height: 50px;
+						border-bottom:2px solid #810C00;
+						border-top: 2px solid #810C00;}
+			
+	
+			
+	li	   				{display:inline;
+						padding:5px 10px;}
+			
+	header img			{display:none;}
+	
+	#content			{
+						width:100%;
+						}
+					
+	#socialMedia			{width:90%;
+							border-top:groove;
+							margin:auto;
+							float:none;}
+							
+						
+	#music		{display: none;}
+	
+#indesign, #artwork, #websites			{width:50%; 
+										margin:auto;
+										float:none; 
+										text-align:center;
+										}				
+}
+
+
+@media screen and (max-width:700px)	{
+	
+		a   				{font-size:1.2em;}
+	aside 					{max-height:30px}
+	#socialMediaIcons			{width:35%;}
+	#indesign, #artwork, #websites			{width:80%;}				
+
+	}
+
+
+@media screen and (max-width:500px) { 
+    a	{
+font-size:0.75em;
+	}
+aside					{max-height:30px;min-height:30px;}
+
+#socialMedia h4			{width:15%; float:left;}	
+
+
+}
+
+a, aside, li, header img, #content, #socialMedia, #music #indesign, #artwork
+#websites{ 
+    transition:all .5s linear; 
+    -o-transition:all .5s linear; 
+    -moz-transition:all .5s linear; 
+    -webkit-transition:all .5s linear;
+}

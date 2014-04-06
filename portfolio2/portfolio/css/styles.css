@@ -1,0 +1,230 @@
+/* CSS Stylesheet */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Global*/
+
+html {}
+
+a	{text-decoration:none; border-style:none;}
+
+/*Headings*/
+
+h1, h2, h3, h4, h5, h6 {font-weight:bold}
+h1		{font-size:24px; color: #CCC; padding-bottom:15px; margin-bottom:15px;}
+h2		{font-size:20px; margin-bottom: 5px; color:#CCC}
+h3		{font-size:22px; margin-bottom: 3px; color:#ea0000;}
+h4		{font-size:18px; color:#F00}
+h5		{font-size:14px;}
+h6		{font-size:14px;}
+
+/*Text Elements*/
+
+p				{color:#999; font-size:12px; line-height:150%;
+				 margin-bottom:15px;}
+p .left			{margin: 1.5em 1.5em 1.5em 0; padding: 0;}
+p .right		{margin: 1.5em 0 1.5em 1.5em; padding: 0;}
+
+/*Images*/
+
+
+/* Containers */
+
+#outer   			{width:940px;margin: 0 auto;}
+
+#wrapper 			{width:900px; margin: 0 auto;
+					text-align:center;}
+#background			{z-index:5;}
+
+
+#socialMediaIcons	{position:absolute;
+					left:200px;
+					top:250px;}
+
+#socialMediaIcons a{display:block;
+					margin:10px;
+					
+					-webkit-transition-duration: 0.8s;
+   					-moz-transition-duration: 0.8s;
+    				-o-transition-duration: 0.8s;
+    				transition-duration: 0.8s;
+ 
+    				-webkit-transition-property: -webkit-transform;
+    				-moz-transition-property: -moz-transform;
+    				-o-transition-property: -o-transform;
+    				transition-property: transform;
+ 
+    				overflow:hidden;
+ 
+    				}
+					
+					
+					
+
+#socialMediaIcons a:hover
+					{
+					-webkit-transform:rotate(360deg);
+    				-moz-transform:rotate(360deg);
+    				-o-transform:rotate(360deg);
+					}
+#initials img		{width:300px;
+					height:150px;}				
+#initials			{position:absolute;
+					top:50px;
+					left:50px;
+    				}
+
+#leftCloud			{position:absolute;
+					left:335px;
+					top:0px;
+					z-index:20;
+					cursor:pointer;}
+#centerCloud		{position:absolute;
+					left:535px;
+					top:0px;
+					z-index:20;
+					cursor:pointer;}
+#rightCloud			{position:absolute;
+					left:735px;
+					top:0px;
+					z-index:20;
+					cursor:pointer;}
+						
+						
+						
+#stage1Container	{position:absolute;
+					left:345px;
+					top:20px;
+					z-index:10;
+					}	
+					
+#stage2Container	{position:absolute;
+					left:560px;
+					top:20px;
+					z-index:10;
+					}					
+#stage3Container	{position:absolute;
+					left:770px;
+					top:20px;
+					z-index:10;
+					}				
+			
+			
+			
+#drawings 			{position:absolute;
+					left:365px;
+					top:45px;
+					z-index:19;
+					}
+#photography 		{position:absolute;
+					left:365px;
+					top:45px;
+					z-index:18;
+					}
+#paintings 			{position:absolute;
+					left:365px;
+					top:45px;
+					z-index:17;
+					}
+#sculptures			{position:absolute;
+					left:365px;
+					top:45px;
+					z-index:16;
+					}
+					
+					
+					
+					
+					
+#indesign			{position:absolute;
+					left:560px;
+					background-attachment:fixed;
+					top:45px;
+					z-index:18;
+					}
+#photoshop			{position:absolute;
+					left:560px;
+					background-attachment:fixed;
+					top:45px;
+					z-index:17;
+					}
+#illustrator		{position:absolute;
+					left:560px;
+					top:45px;
+					z-index:16;
+					}				
+#lama				{position:absolute;
+					left:595px;
+					top:45px;
+					z-index:15;
+					}		
+
+#contactInfo		{display:none;
+					position:absolute;
+					left:825px;
+					top:250px;
+					z-index:40;
+					font-size:large;
+					font-family:"Comic Sans MS", cursive;}
+
+#umbrella			{position:absolute;
+					left:900px;
+					top:155px;
+					z-index:30;
+					}		
+					
+					
+body 				{font-family:arial; 
+					font-size:11px;
+					text-align:center;
+					}
+	
+#contact				{
+					clear:both;
+					float:left;
+					margin: 40px;
+					text-shadow: 0px 0px 10px #ffff00;
+					filter: dropshadow(color=#ffff00, offx=, offy=);
+					}
+							
+							
+#footer				{
+					left:45%;}		
